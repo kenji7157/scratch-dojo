@@ -32,3 +32,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## ディレクトリ構成
+
+- 参考記事
+  - SPA Component の推しディレクトリ構成について語る
+  - https://zenn.dev/yoshiko/articles/99f8047555f700
+  - https://github.com/yoshiko-pg/next-template
+  - https://zenn.dev/brachio_takumi/articles/2ab9ef9fbe4159
+
+## コンポーネント設計
+
+- 参考記事
+  - 経年劣化に耐える ReactComponent の書き方
+  - https://zenn.dev/takepepe/articles/howto-withstand-aging-react-component
