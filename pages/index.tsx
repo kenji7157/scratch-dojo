@@ -1,9 +1,10 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
-import { Header, HeaderGuide } from '@/src/components/ui-elements';
+import { Header, HeaderGuide, Footer } from '@/src/components/ui-elements';
+import { TopWelcomeBoard, TopInformationBoard, TopFeatureBoard } from '@/src/components/ui-parts';
 
-const Home: NextPage = () => (
+const Top: NextPage = () => (
   <>
     <Head>
       <title>トップページ</title>
@@ -11,17 +12,20 @@ const Home: NextPage = () => (
       <link rel='icon' href='/favicon.ico' />
     </Head>
     {/* ヘッダー */}
-    <Header></Header>
+    <Header />
     {/* ヘッダー下の帯 */}
-    <HeaderGuide></HeaderGuide>
+    <HeaderGuide />
     {/* 見出し */}
+    <TopWelcomeBoard />
     {/* information */}
+    <TopInformationBoard />
     {/* 2nd chat room */}
     {/* 特集チケット */}
+    <TopFeatureBoard />
     {/* 2nd ランキング */}
     {/* フッター */}
-    <div>トップページ WIP</div>
+    <Footer />
   </>
 );
 
-export default Home;
+export default Top;
