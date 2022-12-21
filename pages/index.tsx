@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
-import { Header } from '@/src/components/ui-elements/Header';
+import { Header, HeaderGuide } from '@/src/components/ui-elements';
 
 const Home: NextPage = () => (
   <>
@@ -13,6 +13,7 @@ const Home: NextPage = () => (
     {/* ヘッダー */}
     <Header></Header>
     {/* ヘッダー下の帯 */}
+    <HeaderGuide></HeaderGuide>
     {/* 見出し */}
     {/* information */}
     {/* 2nd chat room */}
