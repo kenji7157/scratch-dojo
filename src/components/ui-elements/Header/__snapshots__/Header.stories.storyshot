@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots ui-elements/Header Default 1`] = `
+<header
+  className="header"
+>
+  Header
+</header>
+`;
