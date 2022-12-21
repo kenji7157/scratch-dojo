@@ -1,6 +1,8 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
+import { Header } from '@/src/components/ui-elements/Header';
+
 const Home: NextPage = () => (
   <>
     <Head>
@@ -9,6 +11,7 @@ const Home: NextPage = () => (
       <link rel='icon' href='/favicon.ico' />
     </Head>
     {/* ヘッダー */}
+    <Header></Header>
     {/* ヘッダー下の帯 */}
     {/* 見出し */}
     {/* information */}
