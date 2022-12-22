@@ -7,4 +7,4 @@ export default {
   title: 'ui-elements/Button',
 };
 
-export const Default = () => <Button />;
+export const Default = () => <Button>ログイン</Button>;
