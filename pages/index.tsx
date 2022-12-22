@@ -14,7 +14,9 @@ const Top: NextPage = () => (
     {/* ヘッダー */}
     <Header />
     {/* ヘッダー下の帯 */}
-    <HeaderGuide />
+    <HeaderGuide color='primary'>
+      Ticketnoteは「プログラミング学習を記録・共有」する無料サービスです
+    </HeaderGuide>
     {/* 見出し */}
     <TopWelcomeBoard />
     {/* information */}

@@ -1,8 +1,22 @@
-import { FC } from 'react';
+import { FC, ReactElement } from 'react';
 import styles from './HeaderGuide.module.scss';
+import { Color, FontSize, FontWeight } from '@/src/types';
 
-export const HeaderGuide: FC<{}> = () => (
-  <div className={styles.header}>
-    Ticketnoteは「プログラミング学習を記録・共有」する無料サービスです
+type Props = {
+  color: Color;
+  fontWeight?: FontWeight;
+  fontSize?: FontSize;
+  children: string | ReactElement;
+};
+export const HeaderGuide: FC<Props> = ({
+  color,
+  fontSize = '16',
+  fontWeight = 'bold',
+  children,
+}) => (
+  <div
+    className={`${styles['header-guide']}  bg_${color} text_white font-weight-${fontWeight} font-size-${fontSize} py-1`}
+  >
+    {children}
   </div>
 );
