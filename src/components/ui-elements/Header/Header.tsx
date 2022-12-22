@@ -2,6 +2,7 @@ import { FC } from 'react';
 import Image from 'next/image';
 import styles from './Header.module.scss';
 import { Button, TextField } from '@/src/components/ui-elements';
+import axios from 'axios';
 
 type Props = {};
 type PresenterProps = {
@@ -22,8 +23,8 @@ export const PresenterHeader: FC<PresenterProps> = ({ login }) => (
 export const Header: React.FC<Props> = () => {
   const login = async () => {
     console.log('ログインボタン');
-    const response = await fetch('/api/hello');
-    console.log('-- response --', response);
+    const response = await axios.get('/api/hello');
+    console.log('-- response --', response.data);
   };
   return <PresenterHeader login={login} />;
 };
