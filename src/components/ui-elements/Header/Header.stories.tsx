@@ -1,10 +1,10 @@
 /* eslint-disable import/no-default-export */
 import React from 'react';
 
-import { Header } from './Header';
+import { PresenterHeader } from './Header';
 
 export default {
   title: 'ui-elements/Header',
 };
 
-export const Default = () => <Header />;
+export const Default = () => <PresenterHeader login={() => {}} />;
