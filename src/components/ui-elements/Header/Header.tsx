@@ -12,7 +12,7 @@ type PresenterProps = {
 export const PresenterHeader: FC<PresenterProps> = ({ login }) => (
   <header className={styles.header}>
     {/* 画像 */}
-    <Image src='/image/logo_green.png' alt='logo' width={200} height={40} />
+    <Image src='/image/scratch_dojo_logo.png' alt='logo' width={200} height={40} />
     {/* テキストフィールド */}
     <TextField></TextField>
     {/* ログインボタン */}
