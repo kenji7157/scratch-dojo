@@ -1,8 +1,13 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
-import { Header, HeaderGuide, Footer } from '@/src/components/ui-elements';
-import { TopWelcomeBoard, TopInformationBoard, TopFeatureBoard } from '@/src/components/ui-parts';
+import { HeaderGuide, Footer } from '@/src/components/ui-elements';
+import {
+  TopWelcomeBoard,
+  TopInformationBoard,
+  TopFeatureBoard,
+  Header,
+} from '@/src/components/ui-parts';
 
 const Top: NextPage = () => (
   <>

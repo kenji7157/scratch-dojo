@@ -1,3 +1,20 @@
-.header {
-  //   background: blue;
+.base {
+  height: 3.6rem;
+  border-radius: 28px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0rem 1.6rem;
+  border-style: none;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  color: var(--white);
+}
+
+.bg_orange {
+  background-color: var(--orange);
+}
+
+.text_btn {
+  background-color: transparent !important;
+  color: var(--orange);
 }
